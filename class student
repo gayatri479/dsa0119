@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class student{
+    public:
+    void display(){
+        cout<<"this is an object oreinted program. ";
+    }
+};
+int main(){
+    student s;
+    s.display();
+    return 0;
+}
+Output:this is an object oreinted program. 
