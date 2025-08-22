@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, c, max_val;
+    cout << "Enter three integers: ";
+    cin >> a >> b >> c;
+    if (a >= b && a >= c)
+        max_val = a;
+    else if (b >= a && b >= c)
+        max_val = b;
+    else
+        max_val = c;
+  cout<<"max number is:" << max_val << endl;
+    return 0;
+}
