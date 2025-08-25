@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+bool isAbundant(int n) {
+    if (n < 1) return false;
+
+    int sum = 0;
+
+    // Calculate sum of proper divisors
+    for (int i = 1; i < n; ++i) {
+        if (n % i == 0) {
+            sum += i;
+        }
+    }
+
+    // Check if sum is greater than the number
+    return sum > n;
+}
+
+int main() {
+    int num;
+    cout << "Enter an integer: ";
+    cin >> num;
+
+    if (isAbundant(num)) {
+        cout << num << " is an abundant number." << endl;
+    } else {
+        cout << num << " is not an abundant number." << endl;
+    }
+
+    return 0;
+}
