@@ -1,0 +1,13 @@
+. Write a program to read in two integers and compute their greatest common divisor using a do-while loop.
+. Write a program to read in an integer and print the sum of all its digits using a while loop.
+. Write a program to read in an integer and determine if it is a palindrome or not using a while loop.
+. Write a program to read in an integer and determine if it is a prime number or not using a for loop.
+. Write a program to read in an integer and print the Fibonacci series up to that number using a for loop.
+rite a program to read in an integer and print the multiplication table for that number using a for loop.
+Write a program to read in an integer and print the factorial of that number using a for loop.
+ Write a program to read in a floating-point number and round it to the nearest integer using the floor and ceil functions.
+ Write a C++ program to create a dynamic two-dimensional array using pointers and display its values.
+. Write a C++ program to create a dynamic array using pointers and display its values.
+rite a C++ program to find the second largest element in an array.
+108. Write a C++ program to merge two arrays into a single array.
+
