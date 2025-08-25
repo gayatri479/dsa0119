@@ -1,0 +1,29 @@
+Calculator Program: Write a program that performs basic arithmetic operations (addition, subtraction, multiplication, division) using functions for each operation
+Factorial Calculation: Create a function to calculate the factorial of a number.Use With Argument and With Out Return Value.
+Palindrome Checker: Design a function to check if a given string or number is a palindrome.Use With out Argument and With Return Value.
+Prime Number Generator: Write a function to generate and display all prime numbers up to a given number.
+Fibonacci Series: Develop a function to generate the Fibonacci series up to a specified limit.Use With out Argument and With out Return Value.
+Greatest Common Divisor (GCD): Create a function to find the GCD of two numbers using the Euclidean algorithm.Use Inline function
+Power Function: Implement a function to calculate the power of a number raised to an exponent.Calculator ProgramFactorial Calculation
+Temperature Converter: Write functions to convert temperatures between Celsius and Fahrenheit.Use With Argument and With Return Value.
+Temperature Converter: Write functions to convert temperatures between Celsius and Fahrenheit.Use With Argument and With Return Value.
+Quadratic Equation Solver: Create a function to solve quadratic equations (ax^2 + bx + c = 0) given coefficients a, b, and c.
+String Reversal: Design a function that reverses a given string.
+Array Sorting: Implement functions to sort arrays 
+Sum of Array Elements: Create a function to calculate the sum of elements in an array.
+Decimal to Binary Conversion: Develop a function to convert a decimal number to its binary equivalent
+Binary to Decimal Conversion: Write a function to convert a binary number to its decimal equivalent.
+Matrix Addition and Multiplication: Implement functions to add and multiply matrices.
+Armstrong Number Checker: Create a function to check if a given number is an Armstrong number.
+String Tokenizer: Develop a function to tokenize a string based on a specific delimiter
+Simple Interest Calculator: Write a function to calculate simple interest given principal amount, rate, and time.
+umber Pattern Generator: Create a function to generate different number patterns, such as a pyramid, diamond, or Pascal's triangle
+
+
+
+
+
+
+
+
+
