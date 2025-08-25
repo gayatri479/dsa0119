@@ -1,0 +1,16 @@
+def power_sum(num, power):
+    if num == 0:
+        return 0
+    else:
+        return (num % 10) ** power + power_sum(num // 10, power)
+
+def is_narcissistic(num):
+    power = len(str(num))
+    return power_sum(num, power) == num
+
+number = int(input("Enter an integer: "))
+
+if is_narcissistic(number):
+    print(f"{number} is a narcissistic number.")
+else:
+    print(f"{number} is NOT a narcissistic number.")
