@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+bool isNeon(int n) {
+    int square = n * n;
+    int digitSum = 0;
+
+    // Sum the digits of the square
+    while (square > 0) {
+        digitSum += square % 10;
+        square /= 10;
+    }
+
+    return digitSum == n;
+}
+
+int main() {
+    int num;
+    cout << "Enter an integer: ";
+    cin >> num;
+
+    if (isNeon(num)) {
+        cout << num << " is a neon number." << endl;
+    } else {
+        cout << num << " is not a neon number." << endl;
+    }
+
+    return 0;
+}
