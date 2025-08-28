@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+// Function to calculate factorial (with argument, no return value)
+void factorial(int n) {
+    unsigned long long fact = 1; // using long long to handle large numbers
+    for(int i = 1; i <= n; i++) {
+        fact *= i;
+    }
+    cout << "Factorial of " << n << " is: " << fact << endl;
+}
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+
+    if(num < 0) {
+        cout << "Factorial is not defined for negative numbers!" << endl;
+    } else {
+        factorial(num); // Call function
+    }
+
+    return 0;
+}
